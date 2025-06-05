@@ -1,48 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
-	    <servlet>
-	<servlet-name>abc</servlet-name>
-	<servlet-class>com.telusko.AddServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-	<servlet-name>abc</servlet-name>
-	<url-pattern>/add</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-	<servlet-name>pqr</servlet-name>
-	<servlet-class>com.telusko.SqServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-	<servlet-name>pqr</servlet-name>
-	<url-pattern>/sq</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-	<servlet-name>MyServlet</servlet-name>
-	<servlet-class>com.telusko.MyServlet</servlet-class>
-	
-	<init-param>
-	<param-name>name</param-name>
-	<param-value>Sukesh</param-value>
-	</init-param>
-	
-	</servlet>
-	<servlet-mapping>
-	<servlet-name>MyServlet</servlet-name>
-	<url-pattern>/my</url-pattern>
-	</servlet-mapping>
-	
-	<context-param>
-	<param-name>name</param-name>
-	<param-value>Rana</param-value>
-	</context-param>
-	
-	<context-param>
-	<param-name>phone</param-name>
-	<param-value>Moto</param-value>
-	</context-param> 
-	
 	<servlet>
 	<servlet-name>def</servlet-name>
 	<servlet-class>com.telusko.Calculator</servlet-class>
@@ -50,14 +7,5 @@
 	<servlet-mapping>
 	<servlet-name>def</servlet-name>
 	<url-pattern>/calculate</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-	<servlet-name>stu</servlet-name>
-	<servlet-class>com.telusko.Adv_Calculator</servlet-class>
-	</servlet>
-	<servlet-mapping>
-	<servlet-name>stu</servlet-name>
-	<url-pattern>/Calculate</url-pattern>
 	</servlet-mapping>  
 </web-app>
